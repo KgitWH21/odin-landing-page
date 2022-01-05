@@ -9,5 +9,11 @@
     background-color: #1F2937;
     display: flex;
     flex: 1;
+}
 
+.header-area {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
 }
