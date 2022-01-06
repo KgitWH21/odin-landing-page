@@ -24,8 +24,25 @@ body {
     flex: 1;
 }
 
-.header {
+#header {
     display: flex;
+    
+}
+
+ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 8px;
+    list-style: none;
+}
+
+.links {
+    margin-left: auto;
+}
+
+.hero-area {
+    margin-top: 48px;
 }
 
 
