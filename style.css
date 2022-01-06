@@ -1,19 +1,51 @@
-.page-container {
+body {
+    height: 100vh;
+    margin: 0px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .footer {
-    max-height: 100px;
+    height: 48px;
     color: white;
     background-color: #1F2937;
     display: flex;
-    flex: 1;
+    flex-shrink: 0;
+    margin-top: auto;
 }
 
 .header-area {
     color: white;
     background-color: #1F2937;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+}
+
+
+
+.random-info {
     display: flex;
     flex: 1;
 }
+
+.quote-area {
+    display: flex;
+    flex: 1;
+    background-color: #E5E7EB;
+}
+
+.cta-area {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+
