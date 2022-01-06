@@ -22,7 +22,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1.5;
 }
 
 #header {
@@ -52,8 +52,49 @@ ul {
 
 .hero-area {
     margin-top: 48px;
+    display: flex;
 }
 
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin-left: 136px;
+    margin-bottom: 64px;
+
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+} 
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+} 
+
+.signup {
+    color: white;
+    background-color: #3882F6;
+    width: 80px;
+    margin-top: 8px;
+
+}
+
+.gray-box {
+    margin-left: auto;
+    margin-right: 128px;
+    margin-bottom: 64px;
+    max-height: 200px;
+    width: 450px;
+    padding: 8px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 .random-info {
