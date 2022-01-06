@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     margin: 0px;
+    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -26,19 +27,27 @@ body {
 
 #header {
     display: flex;
-    
+    margin-left: 128px;
+    padding: 8px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 ul {
     display: flex;
     margin: 0px;
     padding: 0px;
-    gap: 8px;
+    gap: 16px;
     list-style: none;
 }
 
 .links {
     margin-left: auto;
+    margin-right: 128px;
 }
 
 .hero-area {
