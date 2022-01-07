@@ -77,8 +77,13 @@ ul {
 .signup {
     color: white;
     background-color: #3882F6;
-    width: 80px;
+    width: 100px;
     margin-top: 8px;
+    border-radius: 8px;
+    font-size: 90%;
+    font-weight: 700;
+    border: 0;
+    padding: 8px;
 
 }
 
