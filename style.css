@@ -104,6 +104,7 @@ ul {
 
 .random-info {
     display: flex;
+    flex-direction: column;
     flex: 1;
 }
 
@@ -112,6 +113,39 @@ ul {
     height: 75px;
     border: solid #3882F6;
     border-radius: 8px;
+}
+
+.rinfo-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+   
+}
+
+.item {
+    width: 150px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.item-text {
+    font-size: 12px;
 }
 
 .quote-area {
