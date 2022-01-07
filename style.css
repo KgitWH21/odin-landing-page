@@ -22,7 +22,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    flex: 1.5;
+    flex: 1;
 }
 
 #header {
@@ -60,7 +60,7 @@ ul {
     flex-direction: column;
     max-width: 375px;
     margin-left: 136px;
-    margin-bottom: 64px;
+    margin-bottom: 56px;
 
 }
 
@@ -90,7 +90,7 @@ ul {
 .gray-box {
     margin-left: auto;
     margin-right: 128px;
-    margin-bottom: 64px;
+    margin-bottom: 56px;
     max-height: 200px;
     width: 450px;
     padding: 8px;
@@ -105,6 +105,13 @@ ul {
 .random-info {
     display: flex;
     flex: 1;
+}
+
+.img-box {
+    width: 75px;
+    height: 75px;
+    border: solid #3882F6;
+    border-radius: 8px;
 }
 
 .quote-area {
