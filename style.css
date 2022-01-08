@@ -12,7 +12,9 @@ body {
     color: white;
     background-color: #1F2937;
     display: flex;
-    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
     margin-top: auto;
 }
 
