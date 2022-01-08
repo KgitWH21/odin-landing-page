@@ -116,7 +116,7 @@ ul {
 }
 
 .rinfo-title {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 900;
     color: #1F2937;
     margin-top: 16px;
@@ -156,7 +156,7 @@ ul {
 }
 
 .quote-box {
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -167,6 +167,8 @@ ul {
 .quote {
     display: flex;
     justify-content: center;
+    font-size: 16px;
+    font-style: italic;
 }
 
 .cta-area {
