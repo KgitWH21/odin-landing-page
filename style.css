@@ -174,8 +174,53 @@ ul {
 .cta-area {
     display: flex;
     flex: 1;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.cta {
+    width: 700px;
+    height: 75px;
+    color: white;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+
+}
+
+.cta-text {
+    font-size: 12px;
+}
+.cta-left {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.cta-right {
+    display: flex;
+    margin-left: auto;
+    margin-right: 80px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.cta-bold {
+    font-weight: bold;
+
+}
+
+.signup-2 {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-size: 90%;
+    font-weight: 700;
+    padding: 8px;
+}
 
 
